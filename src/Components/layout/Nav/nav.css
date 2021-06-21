@@ -1,0 +1,19 @@
+.nav{
+    margin:0, auto;
+    padding-top: 0;
+    padding: 20px;
+    background-color: rgba(59,93,122,1);
+    font-family: 'Lora', serif;
+    font-size: 1.5rem;
+}
+.link{
+    color:#d2ae84;
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+}
+.link:hover{
+    color: rgb(71, 99, 124);
+    background-color: #d2ae84a4;
+    border-radius: 15px;
+}

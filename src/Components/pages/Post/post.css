@@ -1,0 +1,24 @@
+.post{
+    background-color: rgb(226, 226, 217);
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 1rem;
+}
+.button{
+    color:#d2ae84;
+    background-color: rgba(59,93,122,1);
+    font-size: 1rem;
+    padding: 15px;
+}
+.button:hover{
+    color: rgb(71, 99, 124);
+    background-color: #d2ae84a4;
+    border-radius: 15px;
+}
+.link{
+    list-style: none;
+    text-decoration: none;
+    color:#d2ae84;
+}
+.link:hover{
+    color: rgb(71, 99, 124);
+}

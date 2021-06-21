@@ -1,0 +1,19 @@
+.form{
+    font-size: 1.5rem;
+    }
+    .group{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .button{
+        color:#d2ae84;
+        background-color: rgba(59,93,122,1);
+        font-size: 1rem;
+        padding: 15px;
+        margin: 25px;
+    }
+    .button:hover{
+        color: rgb(71, 99, 124);
+        background-color: #d2ae84a4;
+        border-radius: 15px;
+    }
