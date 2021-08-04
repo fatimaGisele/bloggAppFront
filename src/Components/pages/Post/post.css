@@ -2,17 +2,25 @@
     background-color: rgb(226, 226, 217);
     font-family: 'Hind Madurai', sans-serif;
     font-size: 1rem;
+    box-shadow: 0px 15px 15px 5px rgba(0,0,0,0.4);
+    height: 450px;
+}
+.title{
+    height: 50%;
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
 .button{
     color:#d2ae84;
     background-color: rgba(59,93,122,1);
     font-size: 1rem;
-    padding: 15px;
+    padding: 5px;
 }
 .button:hover{
     color: rgb(71, 99, 124);
     background-color: #d2ae84a4;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 .link{
     list-style: none;

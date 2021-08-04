@@ -1,7 +1,7 @@
-
 import { useState, useEffect } from "react";
 import { getAllInfo } from "../../../HTTP/HTTP";
 import Post from "../Post";
+import { Container, Col, Row } from "react-bootstrap";
 
 const Home = () => {
 
@@ -22,11 +22,16 @@ const Home = () => {
     },[])
 
     return ( 
-        <>
-            {post.length >0 && post.map((post) => (
-            <Post key={post.id} {...post} deleteMyPost={deleteMyPost}/>)
-            )}
-        </>
+        <Container>
+            <Row>
+                {post.length >0 && post.map((post) => (
+                    <Col xs={12} md={6}>
+                        <Post key={post.id} {...post} deleteMyPost={deleteMyPost}/>
+                    </Col>)
+                    )}
+             </Row>
+        </Container>
+       
      );
 }
  
